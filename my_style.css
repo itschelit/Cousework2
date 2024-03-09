@@ -1,0 +1,131 @@
+.flag_ua {
+	background-image: url(./images/ua.png);
+}
+.flag_eng {
+	background-image: url(./images/eng.png);
+}
+.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item-wrapper {
+	padding: 0.5em 0 0.5em 3em;
+  }
+  .ui-selectmenu-menu .ui-menu.customicons .ui-menu-item .ui-icon {
+	height: 24px;
+	width: 24px;
+	top: 0.1em;
+  }
+  .ui-icon.harley {
+	background-image: url("../images/moto4.jpg")!important;
+	background-size: 24px 24px;
+  }
+  .ui-icon.crossmoto {
+	background-image: url("../images/moto2.jpg")!important;
+	background-size: 24px 24px;
+  }
+  .ui-icon.speedmoto {
+	background-image: url("../images/moto3.jpg")!important;
+	background-size: 24px 24px;
+  }
+  .ui-icon.konceptmoto {
+	background-image: url("../images/moto1.jpg")!important;
+	background-size: 24px 24px;
+  }
+#custom-handle {
+	width: 3em;
+	height: 1.6em;
+	top: 50%;
+	margin-top: -.8em;
+	text-align: center;
+	line-height: 1.6em;
+}
+#slider{
+	  width: 400px;
+}
+
+#slider-range{
+	width: 400px;
+}
+
+
+#sortable { list-style-type: none; margin: 0; padding: 0; }
+#sortable li { margin: 5px; padding: 10px;}
+.ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+
+#selectable .ui-selecting { background: #7D6285; }
+#selectable .ui-selected { background: #2d692d; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; }
+#selectable li { margin: 3px; padding: 3px; float: left; width: 210px; height: 210px; font-size: 4em; text-align: center; }
+.section-menu {
+	border: 3px solid black;
+}
+.menu > .container {
+	align-items: center;
+	display: flex !important
+}
+
+span > .pidpreview {
+	font-size: 20px;
+}
+#accordion {
+	margin:20px;
+	padding: 20px;
+}
+#home {
+	border: 3px solid white;
+}
+.about-moto {
+	color: aliceblue;
+}
+.greentext {
+	color: #2d692d;
+}
+.goldtext {
+	color: goldenrod;
+}
+h3 > .reverse {
+	transform: scaleX(-1);
+}
+#accordion > h3 div {
+	transition: transform 0.3s ease;
+}
+#accordion > h3 div:hover {
+	transform: scale(1.2);
+}
+.clearfix {
+	align-items: center;
+}
+.Ordertext {
+	color: #2d692d;
+}
+.Orderpoll {
+	color: rgb(224, 224, 26);
+}
+.Orderask {
+	color: rgb(161, 20, 20);
+}
+input {
+	background-color: #929292;
+}
+.ticketprize {
+	padding: 0 50px 0 50px;
+}
+.ui-selectee {
+	transition: transform 0.3s ease;
+}
+.ui-selectee:hover {
+	transform: scale(1.05);
+}
+.row {
+	margin-bottom: 50px;
+}
+.filmkoshik {
+	margin-top: 10px;
+    width: 150px;
+    height: 200px;
+    border: 4px solid rgb(100, 100, 100);
+    transition: transform 0.3s ease;
+}
+a::before {
+	scroll-behavior: smooth;
+}
+.choose {
+	border: 3px solid black !important;
+}

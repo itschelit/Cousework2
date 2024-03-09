@@ -1,0 +1,615 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>KinoSvit</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/jquery.dmenu.css">
+	<link rel="stylesheet" href="my_style.css">
+	<link rel="shortcut icon" href="./images/icon/favicon (3).ico" type="image/x-icon">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<link rel="stylesheet" href="./css/jquery-ui.css">
+</head>
+
+<body>
+	<section class="section-menu">
+		<div class="container">
+			<nav id="menu">
+				<ul>
+					<li><a href="#golovna">Головна</a></li>
+					<li class="SubmenuFullWidth">
+						<a href="#kino">Кіно</a>
+						<ul>
+							<li><a href="#">Драма</a>
+								<ul>
+									<li><img src="./images/genres/drama.png" alt="" width="200"></li>
+									<li><a href="#">"Форрест Гамп" </a></li>
+									<li><a href="#">"Шоу Трумана"</a></li>
+									<li><a href="#">"Зелена книга"</a></li>
+									<li><a href="#">"Достучатися до небес"</a></li>
+									<li><a href="#">"Прощавай, моя королево"</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Комедія</a>
+								<ul>
+									<li><img src="./images/genres/comedy.png" alt="" width="200"></li>
+									<li><a href="#">"Красуня і чудовисько" </a></li>
+									<li><a href="#">"Джентльмени"</a></li>
+									<li><a href="#">"Легенди осені"</a></li>
+									<li><a href="#">"Люди в чорному"</a></li>
+
+								</ul>
+							</li>
+							<li><a href="#">Екшн</a>
+								<ul>
+									<li><img src="./images/genres/action.png" alt="" width="200"></li>
+									<li><a href="#">"Месники"</a></li>
+									<li><a href="#">"Швидкий їзд" </a></li>
+									<li><a href="#">"Термінатор 2: Судний день"</a></li>
+									<li><a href="#">"Пірати Карибського моря"</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Жахи</a>
+								<ul>
+									<li><img src="./images/genres/horror.png" alt="" width="200"></li>
+									<li><a href="#">"Живе"</a></li>
+									<li><a href="#">"Джон Картер"</a></li>
+									<li><a href="#">"Загадкове зникнення"</a></li>
+									<li><a href="#">"Відживання мертвих"</a></li>
+
+								</ul>
+							</li>
+							<li><a href="#">Фантастика</a>
+								<ul>
+									<li><img src="./images/genres/fantasy.png" alt="" width="200"></li>
+									<li><a href="#">"Зоряні війни"</a></li>
+									<li><a href="#">"Аватар"</a></li>
+									<li><a href="#">"Людина-павук"</a></li>
+									<li><a href="#">"Інтерстеллар"</a></li>
+
+								</ul>
+							</li>
+							<li><a href="#">Документал</a>
+								<ul>
+									<li><img src="./images/genres/documental.png" alt="" width="200"></li>
+									<li><a href="#">"Морський світ"</a></li>
+									<li><a href="#">"Земля"</a></li>
+									<li><a href="#">"Всесвіт Стівена Хокінга"</a></li>
+									<li><a href="#">"До дна: Історія інтернету"</a></li>
+
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li><a href="#forma">Замовлення</a></li>
+					<li><a href="#format">Формат</a></li>
+					<li class="SubmenuMega">
+						<a href="#">Інформація</a>
+						<ul>
+							<li>Цей сайт не є офіційним, це лише вигаданий сайт.</li>
+						</ul>
+						</li>
+					<li class="SubmenuMega">
+					<a href="#">Соцмережі</a>
+					<ul>
+						<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-viber"></i></a></li>
+					</ul>
+                    </li>
+					<li><a href="#">Служба підтримки</a></li>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+
+
+
+
+	<!--start-container-->
+	<!--start-header-->
+	<div id="home" class="header scroll">
+		<div class="container">
+			<!--start-top-nav-->
+			<!-- 				 <nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active m1"><a href="#">Головна</a></li>
+						<li class="page-scroll m2"><a href="#">Мотоцикли</a></li>
+						<li class="page-scroll m3"><a href="#">Розпродаж</a></li>
+						<li class="page-scroll m4"><a href="#">Форум</a></li>
+						
+						<li class="page-scroll m5"><a href="#">Контакти</a></li>
+						<li class="contact-active m6" class="page-scroll flag" id="flag"><a href="#">Eng</a></li>		
+					</ul>
+					
+						<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+				</nav> -->
+			
+			<div class="slide-text text-center vstypnuy">
+				<h1>KinoSvit</h1>
+				<span class="preview">Ласкаво просимо на  наш сайт кіно!</span>
+				<a class="slide-btn" href="#kino">Дізнатись більше</a>
+				<span class="pidpreview" id="golovna">Пошук <b>кіно</b> & замовлення <b>квитків</b></span>
+			</div>
+			<!--//End-top-nav-->
+		</div>
+	</div>
+	<!--//End-header-->
+	<!--start-feartures-->
+	<div id="fea" class="features">
+		<div class="container">
+
+
+
+			<div class="head text-center">
+				<h3 id="kino"><span> </span> Кіно <span class="reverse"></span></h3>
+				<p id="about-moto"> Це <b class="greentext">магія</b> перетворення мрій на реальність, через об'єднання мистецтва, техніки та витонченої майстерності. Воно відображає світ через <b class="greentext">об'єктив камери</b>, переносячи глядача у світ <b class="greentext">фантазії і реалії</b> одночасно. Кожна кадр - це мить вічності, що залишає слід у серці і думках тих, хто його бачить. <b class="goldtext">Кіно</b> - це не лише <b class="greentext">засіб розваги</b>, але й потужний засіб впливу на свідомість та емоції людини, розширюючи її <b class="greentext">горизонти</b> і відкриваючи нові глибини реальності.</p>
+			</div>
+						<div id="accordion">
+					<h3>Драма</h3>
+					<div>
+						<p>Жанр, що акцентує увагу на емоційному розвитку персонажів та їхніх внутрішніх конфліктах. Фільми драматичного жанру зазвичай мають серйозну тематику та намагаються викликати у глядача різноманітні почуття, такі як сум, радість, співчуття, захоплення тощо. Часто драми ставлять під сумнів соціальні або моральні питання, викликаючи рефлексію у глядача.</p>
+						<ul>
+							<li>"Форрест Гамп" (Forrest Gump, 1994)</li>
+							<li>"Шоу Трумана" (The Truman Show, 1998)</li>
+							<li>"Зелена книга" (Green Book, 2018)</li>
+							<li>"Достучатися до небес" (Knockin' on Heaven's Door, 1997)</li>
+							<li>"Прощавай, моя королево" (Hasta la vista, 2011)</li>
+						</ul>
+					</div>
+
+					<h3>Комедія</h3>
+					<div>
+						<p>Жанр, призначений для розважання та викликання сміху у глядачів. Фільми комедійного жанру можуть бути яскравими та невимушеними, або ж містити глибокий гумор, який висміює соціальні стереотипи або проблеми. Комедії можуть бути сімейними, романтичними, сатиричними тощо.</p>
+						<ul>
+							<li>"Красуня і чудовисько" (Beauty and the Beast, 1991)</li>
+							<li>"Джентльмени" (The Gentlemen, 2019)</li>
+							<li>"Легенди осені" (Legends of the Fall, 1994)</li>
+							<li>"Люди в чорному" (Men in Black, 1997)</li>
+						</ul>
+					</div>
+
+					<h3>Екшн</h3>
+					<div>
+						<p>Жанр, який характеризується великою кількістю бойових сцен, експлозій та інших захоплюючих подій. Фільми екшн часто мають швидкий темп дії і завзятих героїв, які стикаються з різними викликами та небезпеками. Цей жанр може включати в себе такі піджанри, як бойовик, пригодницький фільм та інші.</p>
+						<ul>
+							<li>"Месники" (The Avengers, 2012)</li>
+							<li>"Швидкий їзд" (The Fast and the Furious, 2001)</li>
+							<li>"Термінатор 2: Судний день" (Terminator 2: Judgment Day, 1991)</li>
+							<li>"Пірати Карибського моря: Прокляття чорної перлини" (Pirates of the Caribbean: The Curse of the Black Pearl, 2003)</li>
+						</ul>
+					</div>
+
+					<h3>Жахи</h3>
+					<div>
+						<p>Жанр, метою якого є викликати страх та напругу у глядачів. Фільми жахів часто базуються на надприродних явищах, монстрах, вбивцях або інших елементах, які створюють відчуття небезпеки. Цей жанр може включати в себе такі піджанри, як слешер, паранормальний жах та інші.</p>
+						<ul>
+							<li>"Живе" (Alive, 1993)</li>
+							<li>"Джон Картер" (John Carter, 2012)</li>
+							<li>"Загадкове зникнення" (The Vanishing, 1988)</li>
+							<li>"Відживання мертвих" (Dawn of the Dead, 2004)</li>
+						</ul>
+					</div>
+
+					<h3>Фантастика</h3>
+					<div>
+						<p>Жанр, що базується на фантастичних або наукових концепціях та ідеях. Фільми фантастики можуть розглядати майбутнє, космічні подорожі, технологічний прогрес, альтернативні реальності та інші теми, які виходять за рамки звичайного життя. Цей жанр може містити елементи пригодництва, екшну та драми.</p>
+						<ul>
+							<li>"Зоряні війни" (Star Wars)</li>
+							<li>"Аватар" (Avatar, 2009)</li>
+							<li>"Людина-павук" (Spider-Man, 2002)</li>
+							<li>"Інтерстеллар" (Interstellar, 2014)</li>
+						</ul>
+					</div>
+
+					<h3>Документальний</h3>
+					<div>
+						<p>Жанр, що представляє реальні події, факти та історії. Фільми документального жанру можуть досліджувати різні аспекти життя та суспільства, включаючи історію, науку, культуру, природу тощо. Цей жанр часто використовується для пізнання світу та поширення інформації серед глядачів.</p>
+						<ul>
+							<li>"Морський світ" (The Blue Planet, 2001)</li>
+							<li>"Земля" (Earth, 2007)</li>
+							<li>"Всесвіт Стівена Хокінга" (Stephen Hawking's Universe, 1997)/li>
+							<li>"До дна: Історія інтернету" (Deep Web, 2015)</li>
+						</ul>
+					</div>					
+				</div>
+			<!-- start-features-grids-->
+			<div class="features-grids text-center">
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="1" price="400000" class="head-moto-img" id="img_1" src="images/aquaman.png"
+						alt="Мотоцикл 1" />
+					<h3><a href="#">Аквамен<br><br></a></h3>
+					<p>Фільм, жанру: <b class="greentext"> Екшн</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="2" price="200000" class="head-moto-img" id="img_2" src="images/elements.png" alt="Мотоцикл 2" />
+					<h3><a href="#">Стихії<br><br></a></h3>
+					<p>Фільм, жанру: <b class="greentext">Фантастика</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="3" price="300000" class="head-moto-img" id="img_3" src="images/thenotebook.png"
+						alt="Мотоцикл 3" />
+					<h3><a href="#">Щоденник<br>пам'яті</a></h3>
+					<p>Фільм, жанру: <b class="greentext">Комедія</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="4" price="600000" class="head-moto-img" id="img_4" src="images/kochivnuku.png"
+						alt="Мотоцикл 4" />
+					<h3><a href="#">Земля<br>Кочівників</a></h3>
+					<p>Фільм, жанру: <b class="greentext">Документал</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="1" price="400000" class="head-moto-img" id="img_1" src="images/bluebug.png"
+						alt="Мотоцикл 1" />
+					<h3><a href="#">Синій<br>Жук</a></h3>
+					<p>Фільм, жанру: <b class="greentext">Екшн</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="1" price="400000" class="head-moto-img" id="img_1" src="images/megaladon.png"
+						alt="Мотоцикл 1" />
+					<h3><a href="#">Мегаладон 2<br><br></a></h3>
+					<p>Фільм, жанру: <b class="greentext">Фантастика</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="1" price="400000" class="head-moto-img" id="img_1" src="images/odnoclasnuku.png">
+					<h3><a href="#">Однокласники 2<br><br></a></h3>
+					<p>Фільм, жанру: <b class="greentext">Комедія</b></p>
+				</div>
+				<div class="col-md-3 features-grid">
+					<img title="" nomer="1" price="400000" class="head-moto-img" id="img_1" src="images/napoleon.png"
+						alt="Мотоцикл 1" />
+					<h3><a href="#">Наполеон<br><br></a></h3>
+					<p>Фільм, жанру: <b class="greentext">Екшн</b></p>
+				</div>
+			</div>
+			<!-- //End-features-grids-->
+		</div>
+	</div>
+	<!--//End-feartures-->
+	<!-- start-work-->
+
+
+	<div class="container">
+		<div class="rov">
+			<div class="col-md-12">
+				<h2 class="text-center">Усе для найкрутішого перегляду фільму:</h2>
+				<div id="tabs">
+					<ul>
+						<li><a href="#tabs-1">Смаколики</a></li>
+						<li><a href="#tabs-2">Зручне місце</a></li>
+						<li><a href="#tabs-3">Тиша</a></li>
+						<li><a href="#tabs-4">Компанія</a></li>
+					</ul>
+					<div id="tabs-1">
+						<p>
+							При перегляді завжди хочеться чогось посмакувати? Візьми трохи попкорну і напій перед переглядом! 
+							Вони допоиожуть втамувати твій живіт від голоду)
+						</p>
+					</div>
+					<div id="tabs-2">
+						<p>
+							Замовляєш місце? Не чекай нагоди! Одразу хапай місця де найкраще сісти щоб побачити
+							усю силу кіномистецтва! Однак, як не встиг - тоді й урок тобі буде. Не барись!
+						</p>
+					</div>
+					<div id="tabs-3">
+						<p>
+							Якщо ти почав перегляд, можеш уявити що ти в бібліотеці: ти не читаєш, однак не
+							мішаєш іншим! Не хвилюйся, це правило дотримуються усі)
+						</p>
+					</div>
+					<div id="tabs-4">
+						<p>
+							Можливо, ти любиш дивитись фільми сам, однак рекомендуємо запросити когось з собою - не пошкодуєш!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="work">
+		<div class="container">
+			<div class="head text-center work-head">
+				<h3><span> </span> Замовлення квитків! <span class="reverse"></span></h3>
+			</div>
+			<!-- form -->
+			<div class="col-md-6">
+				<form id="my_form">
+					<div id="bigform">
+						<fieldset id="forma">
+							<!-- right-form -->
+							<div id="div_form_1">
+								<fieldset id="innerfieldset">
+									<legend class="Orderpoll">Додаткові опції </legend>
+									<p class="Ordertext"><strong>Чи потрібні аксесуари?</strong></p>
+									<div id="format">
+										<input type="checkbox" value="sh" name="dop_oprions" id="shlem" />
+										<label for="shlem" class="Orderchoice">Коцик</label>
+										<input type="checkbox" value="bag" name="dop_oprions" id="bag" />
+										<label for="bag" class="Orderchoice">Подушка</label>
+										<input type="checkbox" value="od" name="dop_oprions" id="od" />
+										<label for="od" class="Orderchoice">3D окуляри</label>
+									</div>
+									<br>
+									<p class="Ordertext"><strong>Формат 3D?</strong></p>
+									<div id="radio">
+										<input type="radio" id="inch_yes" value="yes" name="inch" />
+										<label for="inch_yes">Так</label>
+										<input type="radio" id="inch_no" value="no" name="inch" />
+										<label for="inch_no">Ні</label>
+									</div>
+								</fieldset>
+
+								<fieldset id="innerfieldset">
+									<legend class="Orderpoll">Обов'язкове опитування</legend>
+									<div id="oput">
+
+										<div id="radio">
+											<p class="Orderask"><strong>Ви часто ходите в кінотеатр?</strong></p>
+											<input type="radio" id="posv_yes" value="yes" name="posv" />
+											<label for="posv_yes">Так</label>
+											<input type="radio" id="posv_no" value="no" name="posv" />
+											<label for="posv_no">Ні</label>
+										</div>
+
+
+										<div id="radio">
+											<p class="Orderask"><strong>Ви знаєте усі правила поведінки?</strong></p>
+											<input type="radio" id="dosv_yes" value="yes" name="dosv" />
+											<label for="dosv_yes">Так</label>
+											<input type="radio" id="dosv_no" value="no" name="dosv" />
+											<label for="dosv_no">Ні</label>
+										</div>
+
+
+										<div id="radio">
+											<p class="Orderask"><strong>Чи ознайомленні ви з правилами авторських прав?</strong></p>
+											<input type="radio" id="speed_yes" value="yes" name="speed" />
+											<label for="speed_yes">Так</label>
+											<input type="radio" id="speed_no" value="no" name="speed" />
+											<label for="speed_no">Ні</label>
+										</div>
+
+										<div id="radio">
+											<p class="Orderask"><strong>Ви ходите в кінотеатр з друзями/компанією?</strong></p>
+											<input type="radio" id="fam_yes" value="yes" name="fam" />
+											<label for="fam_yes">Так</label>
+											<input type="radio" id="fam_no" value="no" name="fam" />
+											<label for="fam_no">Ні</label>
+										</div>
+
+										<div id="radio">
+											<p class="Orderask"><strong>Ви любите попкорн? :) </strong></p>
+											<input type="radio" id="sigur_yes" value="yes" name="sigur" />
+											<label for="sigur_yes">Так</label>
+											<input type="radio" id="sigur_no" value="no" name="sigur" />
+											<label for="sigur_no">Ні</label>
+										</div>
+
+
+										<p id="aswerCount" class="Ordertext">Дано відповідей 0 з 5</p>
+										<div id="progressbar"></div>
+									</div>
+								</fieldset>
+								<input type="submit" value="Відправити запит" id="my_button"/>
+								<a href="#" id="clear_form" class="Orderclean">Очистити форму</a>
+							</div>
+							<!-- left-form -->
+							<div id="div_form_2">
+								<span class="Ordertext">Фільм:</span>
+								<select name="moto" size="1" id="motoSelect">
+									<option value="1" data-class="harley">Мегаладон2</option>
+									<option value="2" data-class="crossmoto">Стихії</option>
+									<option value="3" data-class="speedmoto">Однокласники</option>
+									<option value="4" data-class="konceptmoto">Щоденник пам'яті
+									</option>
+								</select>
+								<br>
+								<br>
+								<span class="Ordertext"><strong>Кількість квитків:</strong></span>
+								<div id="slider">
+									<div id="custom-handle" class="ui-slider-handle"></div>
+								</div>
+								<br>
+								<span class="Ordertext">День перегляду: </span>
+								<label for="from">У</label>
+								<input type="text" id="from" class="datepicker" name="from" size="12">
+								<br>
+								<br>
+								<div class="demo">
+									<p>
+										<label class="Ordertext">В якій області плануєте перегляд?</label>
+									</p>
+									<input id="tags">
+								</div>
+								<!-- <span>Днів:</span>
+									<select name="days" size="1" id="daysSelect">
+										<option value="1">1</option>
+										<option value="2">2</option>
+									</select> -->
+								<br><br>
+								<p><strong class="Ordertext">Вкажіть Ваш email:</strong></p>
+								<input type="text" id="email" value="Приклад: you@site.ua" />
+								<br><br>
+								<p><strong class="Ordertext">Ваші побажання:</strong></p>
+								<textarea cols="45" rows="2" id="mytextarea"></textarea>
+							</div>
+						</fieldset>
+					</div>
+				</form>
+			</div>
+			<!-- end-form -->
+		</div>
+	</div>
+
+	<!--start-blog-->
+	<div id="blog" class="blog">
+		<div class="container" id="format">
+			<div class="head text-center">
+				<h3 ><span> </span> Ціни на формат фільмів <span class="reverse"></span></h3>
+			</div>
+		</div>
+		<!-- start-blog-time-line-->
+		<div class="blog-time-line">
+
+			<div class="col-md-6 blog-time-line-right ticketprize">
+
+				<div id="accordion2">
+					<div class="blog-post-date">
+						<span class="nomer-blog-post"><label>1</label></span>
+						<h4>2D</h4>
+					</div>
+					<div>
+						<span>Вартіть : <a href="#">150₴ за квиток</a></span>
+					</div>
+
+
+
+					<div class="blog-post-date">
+						<span class="nomer-blog-post"><label>2</label></span>
+						<h4>3D</h4>
+					</div>
+					<div>
+						<span>Вартіть : <a href="#">250₴ за квиток</a></span>
+					</div>
+
+
+
+					<div class="blog-post-date">
+						<span class="nomer-blog-post"><label>3</label></span>
+						<h4>4DX</h4>
+					</div>
+					<div>
+						<span>Вартіть : <a href="#">300₴ за квиток</a></span>
+					</div>
+
+
+
+					<div class="blog-post-date">
+						<span class="nomer-blog-post"><label>4</label></span>
+						<h4>IMAX</h4>
+					</div>
+					<div>
+						<span>Вартіть : <a href="#">450₴ за квиток</a></span>
+					</div>
+
+				</div>
+			</div>
+			<!--
+							<span class="nomer-blog-post"><label>4</label></span>
+							<span>Вартіть : <a href="#">29600$</a></span>
+							<h4>Harley-Davidson FLSTF FAT BOY 2007</h4> -->
+
+			<!-- //End-blog-time-line-->
+
+		</div>
+		<!--//End-blog-->
+
+		<div>
+			<div class="container">
+				<div class="row">
+					<div class="head text-center">
+						<h3><span> </span> Додатково <span class="reverse"></span></h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<h4>Відсортуйте потреби, які б ви хотіли зауважити найперше:</h4>
+						<ul id="sortable">
+							<li class="ui-state-default">Економічність</li>
+							<li class="ui-state-default">Безпека</li>
+							<li class="ui-state-default">Місця</li>
+							<li class="ui-state-default">Різновид смаколиків</li>
+							<li class="ui-state-default">Різновид видів фільму</li>
+							<li class="ui-state-default">Чистота</li>
+							<li class="ui-state-default">Комфорт</li>
+							<li class="ui-state-default">Поведінка у залі</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<h4>Виберіть що вам найбільше б засмакувало)):</h4>
+						<ol id="selectable">
+							<li class="ui-state-default"><img class="choose" src="images/Food/caramel.png" width="200" height="200" alt="" /></li>
+							<li class="ui-state-default"><img class="choose" src="images/Food/pepsi.png" width="200" height="200" alt="" /></li>
+							<li class="ui-state-default"><img class="choose" src="images/Food/popcorn.png" width="200" height="200" alt="" /></li>
+							<li class="ui-state-default"><img class="choose" src="images/Food/juice.png" width="200" height="200" alt="" /></li>
+							<li class="ui-state-default"><img class="choose" src="images/Food/chips.png" width="200" height="200" alt="" /></li>
+							<li class="ui-state-default"><img class="choose" src="images/Food/lemonade.png" width="200" height="200" alt="" /></li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="features-grids text-center ui-helper-reset ui-helper-clearfix">
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable1" class="ui-widget-content">
+						<img title="" nomer="1" price="400000" class="filmkoshik " id="img_1" src="images/aquaman.png" alt="" />
+						<br>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable2" class="ui-widget-content">
+						<img title="" nomer="2" price="200000" class="filmkoshik "  id="img_2" src="images/elements.png" alt="" />
+					<div></div>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable3" class="ui-widget-content">
+						<img title="" nomer="3" price="300000" class="filmkoshik "  id="img_3" src="images/thenotebook.png" alt="" />
+						<div></div>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable4" class="ui-widget-content">
+						<img title="" nomer="4" price="600000" class="filmkoshik "  id="img_4" src="images/kochivnuku.png" alt="" />
+						<div></div>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable5" class="ui-widget-content">
+						<img title="" nomer="5" price="400000" class="filmkoshik " id="img_5" src="images/bluebug.png" alt="" />
+						<div></div>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable6" class="ui-widget-content">
+						<img title="" nomer="6" price="200000" class="filmkoshik "  id="img_6" src="images/megaladon.png" alt="" />
+						<div></div>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable7" class="ui-widget-content">
+						<img title="" nomer="7" price="300000" class="filmkoshik "  id="img_7" src="images/odnoclasnuku.png" alt="" />
+						<div></div>
+					</div>
+					<div class="col-md-3 features-grid ui-widget-content ui-corner-tr" id="draggable8" class="ui-widget-content">
+						<img title="" nomer="8" price="600000" class="filmkoshik "  id="img_8" src="images/napoleon.png" alt="" />
+				<div></div>
+					</div>
+				
+			</div>
+			<div id="koshik">
+				<div class="container">
+					<div class="head text-center">
+						<h3><span> </span> Кошик <span class="reverse"></span></h3>
+						<p id="suma"></p>
+					</div>
+					<div class="koshik-wrapper ui-widget-content ui-state-default">
+					</div>
+					<div id="myclear" style="display: none;">Ви переглянули: <span id="helmetsCount"><strong></strong></span> Фільм.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="dialog" title="Ваше замовлення">
+			<p>Ваше замовлення відправлено на оброблення. Очікуйте підтвердження</p>
+		</div>
+		<!--//End-container-->
+		<script src="./js/jquery-3.7.1.min.js"></script>
+		<script src="./js/jquery-ui.js"></script>
+		<script src="./js/jquery.dmenu.js"></script>
+		<script src="./js/t10.js"></script>
+		<script src="./js/t11.js"></script>
+		<script src="./js/t12.js"></script>
+		<script src="./js/t13.js"></script>
+		<script src="./js/t14.js"></script>
+
+</body>
+
+</html>
+
